@@ -1,0 +1,36 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 10px;
+}
+.button{
+  font:24px;
+}
+a {
+  text-decoration: none;  
+  color: black;
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+input {
+  border: none;
+}
+.login-form{
+  display:flex;
+  flex-direction: column;
+  align-self:center;
+  width: 40%;
+}
+.signInButton{
+  background-color: green;
+  color:white;
+  font-size:20px;
+  padding: 20px;
+  align-self:center;
+}
+.menu{
+  display:flex;
+  width:100%;
+}
