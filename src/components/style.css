@@ -32,5 +32,23 @@ input {
 }
 .menu{
   display:flex;
-  width:100%;
+  margin: 20px;
+}
+.menuItem{
+  border: 1px solid #DDD;
+  height: 100px;
+  width: 20vw;
+  opacity: 0.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px;
+}
+.menuItem :hover{
+  color: green;
+  border-top-color: green; 
+}
+i{
+  transform: scale(2);
 }

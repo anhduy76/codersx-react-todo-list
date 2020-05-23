@@ -14,8 +14,6 @@ class App extends Component {
         </header>
         <div className="container">
           <LoginForm />
-        </div>
-        <div>
           <TabMenu />
         </div>
       </div>
